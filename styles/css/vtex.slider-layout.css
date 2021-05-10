@@ -1,0 +1,25 @@
+.sliderLeftArrow--slider-home
+.caretIcon--slider-home{
+    color: white;
+    width: 45px;
+    height: 45px;
+}
+.sliderRightArrow--slider-home
+.caretIcon--slider-home{
+    color: white;
+    width: 45px;
+    height: 45px;
+}
+.paginationDotsContainer--slider-home{
+    margin: 15px;
+}
+.paginationDot--slider-home{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    background: #fff1f1;
+}
+.paginationDot--slider-home--isActive{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    background: #FFFFFF;
+}

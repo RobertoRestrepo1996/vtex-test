@@ -1,15 +1,176 @@
 {
   "store.home": { 
-    "blocks": [
-      "rich-text"
+    "blocks": ["flex-layout.row#container-home"]
+  },
+
+  "flex-layout.row#container-home": {
+    "children": [
+      "flex-layout.col#main-container-home"
+    ],
+    "props": {
+      "blockClass": "container-home"
+    }
+  },
+  "flex-layout.col#main-container-home":{
+    "children": [
+      "flex-layout.row#main-slider-home",
+      "flex-layout.row#two-banner-home",
+      "flex-layout.row#shelf-home"
+    ],
+    "props": {
+      "blockClass": "main-container-home"
+    }
+  },
+
+  "flex-layout.row#main-slider-home": {
+    "children": ["slider-layout#home"],
+    "props": {
+      "blockClass": "container-slider-home",
+      "width": "100%"
+    }
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true, 
+      "showNavigationArrows": "always",
+      "blockClass": "slider-home",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      } 
+    },
+    "children": [
+      "image#slider-home-1",
+      "image#slider-home-2",
+      "image#slider-home-3"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
+  "image#slider-home-1": {
+    "props": {
+      "src": "assets/icons/banner-principal.jpg",
+      "blockClass": "slider-home-1"
+    }
+  },
+  "image#slider-home-2": {
+    "props": {
+      "src": "assets/icons/banner-principal.jpg",
+      "blockClass": "slider-home-1"
+    }
+  },
+  "image#slider-home-3": {
+    "props": {
+      "src": "assets/icons/banner-principal.jpg",
+      "blockClass": "slider-home-1"
+    }
+  },
+
+  "flex-layout.row#two-banner-home":{
+    "props": {
+      "width":"100%",
+      "blockClass": "two-banner-home"
+    },
+    "children": [
+      "flex-layout.col#banner-1",
+      "flex-layout.col#banner-2"
+    ]
+  },
+  "flex-layout.col#banner-1": {
+    "props": {
+      "blockClass": "banner-1"
+    },
+    "children": [
+      "image#banner-image-1"
+    ]
+  },
+  "image#banner-image-1": {
+    "props": {
+      "src": "assets/icons/banner-moda-infantil.jpg",
+      "blockClass": "banner-image-1"
+    }
+  },
+
+
+  "flex-layout.col#banner-2": {
+    "props": {
+      "blockClass": "banner-2"
+    },
+    "children": [
+      "image#banner-image-2"
+    ]
+  },
+  "image#banner-image-2": {
+    "props": {
+      "src": "assets/icons/banner-deportivo.jpg",
+      "blockClass": "banner-image-2"
+    }
+  },
+
+  "flex-layout.row#shelf-home": {
+    "children": ["flex-layout.col#container-shelf-home"],
+    "props": {
+      "width":"100%",
+      "blockClass": "shelf-home"
+    }
+  },
+  "flex-layout.col#container-shelf-home": {
+    "children": [
+      "rich-text#title-shelf-home",
+      "list-context.product-list#shelf-home"
+    ],
+    "props": {
+      "blockClass": "container-shelf-home"
+    }
+  },
+  "rich-text#title-shelf-home": {
+    "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "text": "PRODUCTOS MÁS BUSCADOS",
+      "textColor": "c-on-base--inverted",
+      "font": "t-heading-3",
+      "blockClass": "title-shelf-home"
+    }
+  },
+  "list-context.product-list#shelf-home": {
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "collection": "150"
+    }
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-image#shelf",
+      "product-summary-name",
+      "product-summary-price"
+
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "width": 277,
+      "height": 300
+    }
+  },
+  "slider-layout#shelf-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": false,
+      "blockClass": "shelf-home-slider"
     }
   }
+
 }

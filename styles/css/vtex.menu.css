@@ -1,0 +1,44 @@
+.menuContainer--main-horizontal-menu{
+    justify-content: center;
+    background: #000000;
+    padding: 10px;
+}
+.menuContainer--main-horizontal-menu
+.menuItem--itemmenu {
+    border-right: 1px solid white;
+}
+
+.menuContainer--main-horizontal-menu
+.menuItem--itemmenu
+.styledLinkContainer--itemmenu{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.menuContainer--main-horizontal-menu
+.menuItem--itemmenuend
+.styledLinkContainer--itemmenuend{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menuContainer--main-horizontal-menu
+.menuItem--itemmenu
+.styledLinkContent--itemmenu{
+    color: #ffffff;
+    font-family: helvetica;
+    font-weight: 600;  
+    font-size: 18px; 
+}
+
+.menuContainer--main-horizontal-menu
+.menuItem--itemmenuend
+.styledLinkContent--itemmenuend{
+    color: #ffffff;
+    font-family: helvetica;
+    font-weight: 600;  
+    font-size: 18px; 
+}

@@ -1,0 +1,97 @@
+.flexRow--header-container{
+    background: white;
+}
+.flexCol--search-bar
+.flexColChild--search-bar
+:global(.vtex-input-prefix__group){
+    border: none;
+    height: 45px;
+}
+
+.flexCol--search-bar
+.flexColChild--search-bar
+:global(.vtex-styleguide-9-x-input){
+    background: #EEEEEE;
+    border-radius: 2px;
+}
+
+.flexCol--search-bar
+.flexColChild--search-bar
+:global(.vtex-input__suffix){
+    background: #eeeeee;
+}
+
+.flexCol--minicart
+.flexColChild--minicart
+:global(.vtex-minicart-2-x-openIconContainer)
+:global(.vtex-button)
+:global(.vtex-minicart-2-x-cartIcon){
+    display: none;
+}
+.flexCol--minicart
+.flexColChild--minicart
+:global(.vtex-minicart-2-x-openIconContainer)
+:global(.vtex-button){
+    background-image: url(assets/icons/cart2.svg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    min-height: auto;
+    border: none;
+    outline: none;
+}
+
+.flexColChild--login{
+    display: block;
+    margin: 0 auto;
+}
+:global(.vtex-login-2-x-container)::before{
+    content: "";
+    background-image: url(assets/icons/feather-user.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+:global(.vtex-login-2-x-label){
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3D3D3B;
+    opacity: 1;
+    font-family:Helvetica;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-top: 3px;
+}
+.flexRow--two-banner-home{
+    padding: 3rem;
+}
+.flexRow--two-banner-home
+.flexCol--banner-1{
+    padding: 2rem;
+}
+.flexRow--two-banner-home
+.flexCol--banner-2{
+    padding: 2rem;
+}
+.flexRowContent--footer-container{
+    background: #000000;
+}
+.flexRowContent--footer-container{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.flexRow--redes-footer{
+    margin-top: 1rem;
+}
+.flexRowContent--copyright-container{
+    margin: 0 auto;
+    border-top: 1px solid #AEAEA9;
+    display: flex;
+    background: #000000;
+}

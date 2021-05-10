@@ -1,0 +1,35 @@
+.socialNetworkLink--facebook{
+    background-image: url(assets/icons/icon-facebook.svg);
+    background-color: #ffffff;
+    border-radius: 30px;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.socialNetworkLink--twitter{
+    background-image: url(assets/icons/icon-twitter.svg);
+    background-color: #ffffff;
+    border-radius: 30px;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.socialNetworkLink--instagram{
+    background-image: url(assets/icons/icon-instagram.svg);
+    background-color: #ffffff;
+    border-radius: 30px;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.socialNetworkLink--youtube{
+    background-image: url(assets/icons/icon-youtube.svg);
+    background-color: #ffffff;
+    border-radius: 30px;
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.socialNetworkImage{
+display: none;
+}

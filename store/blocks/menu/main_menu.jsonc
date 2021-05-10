@@ -1,0 +1,111 @@
+{
+    "vtex.menu@2.x:menu#main-horizontal-menu": {
+        "children": [
+          "menu-item#hombre",
+          "menu-item#mujer",
+          "menu-item#junior",
+          "menu-item#ninos",
+          "menu-item#accesorios",
+          "menu-item#ofertas"
+        ],
+        "props":{
+            "blockClass":"main-horizontal-menu"
+        }
+      },
+      "menu-item#hombre": {
+        "props": {
+          "id": "menu-item-category-hombre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenu",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Hombres",
+            "text": "Hombres"
+          }
+        }
+      },
+      "menu-item#mujer": {
+        "props": {
+          "id": "menu-item-category-mujer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenu",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Mujer",
+            "text": "Mujer"
+          }
+        }
+      },
+      "menu-item#junior": {
+        "props": {
+          "id": "menu-item-category-junior",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenu",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Junior",
+            "text": "Junior"
+          }
+        }
+      },
+      "menu-item#ninos": {
+        "props": {
+          "id": "menu-item-category-ninos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenu",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Niños",
+            "text": "Niños"
+          }
+        }
+      },
+      "menu-item#accesorios": {
+        "props": {
+          "id": "menu-item-category-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenu",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        }
+      },
+      "menu-item#ofertas": {
+        "props": {
+          "id": "menu-item-category-ofertas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass":"itemmenuend",
+          "itemProps": {
+            "type": "custom",
+            "href": "/#",
+            "noFollow": false,
+            "tagTitle": "Ofertas",
+            "text": "Ofertas"
+          }
+        }
+      }
+}
